@@ -3,6 +3,38 @@ body {
   font-family: monospace;
 }
 
+h2 {
+  display: flex;
+  font-size: 40px !important;
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+ul {
+  margin-block-end: 1em;
+  padding-inline-start: 40px;
+}
+
+li {
+  margin: 60px 20px;
+}
+
+i {
+  font-size: 80px;
+  flex-basis: 23%;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Navbar syles */
+
+/* Hero syles */
+
 .hero {
   height: calc(100vh - 55px);
   background-image: url(/Images/hero.png);
@@ -32,8 +64,6 @@ body {
 }
 
 .jumbotronContainer {
-  background-color: white;
-  padding: 75px 75px;
   min-width: 300px;
 }
 
@@ -41,10 +71,19 @@ body {
   font-size: 14px;
 }
 
+.jumbo-content img {
+  margin: 1% 5%;
+  background-size: cover;
+  border-bottom: 5px solid;
+  border-color: #ff6200;
+  border-radius: 50px 5px;
+}
+
 /* Work syles */
 
 .containerWork {
   padding: 11px 7.5%;
+  margin-bottom: 80px;
 }
 
 .row-work {
@@ -57,4 +96,37 @@ body {
 
 .card img {
   max-height: 200px;
+}
+
+/* Skills stlyes*/
+
+.skills {
+  height: 100%;
+  padding: 200px 0 100px;
+}
+
+.container-skills {
+  margin: 0 8%;
+}
+
+.container-icon {
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.skills-icon {
+  padding-bottom: 80px;
+  color: #ff6200;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  border-bottom: 5px solid #ff6200;
+  margin-bottom: 20px;
+}
+
+.skills-icon {
 }
