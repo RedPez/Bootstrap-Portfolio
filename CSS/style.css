@@ -1,0 +1,60 @@
+body {
+  background-color: #f8f7f6;
+  font-family: monospace;
+}
+
+.hero {
+  height: calc(100vh - 55px);
+  background-image: url(/Images/hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.heroCopy {
+  min-width: 300px;
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+
+.py-5 {
+  padding-top: 10rem !important;
+  padding-bottom: 3rem !important;
+}
+
+/* Jumbotron/About me syles */
+
+.jumbotron {
+  text-align: left;
+  padding: 100px 0;
+}
+
+.jumbotronContainer {
+  background-color: white;
+  padding: 75px 75px;
+  min-width: 300px;
+}
+
+.lead {
+  font-size: 14px;
+}
+
+/* Work syles */
+
+.containerWork {
+  padding: 11px 7.5%;
+}
+
+.row-work {
+  margin-bottom: 20px;
+}
+
+.card {
+  border-bottom: 5px solid #ff6200;
+}
+
+.card img {
+  max-height: 200px;
+}
