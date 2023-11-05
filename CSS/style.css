@@ -34,19 +34,6 @@ i {
   margin: 10px;
   padding: 10px;
 }
-.btn {
-  background-color: transparent;
-  color: black;
-  border: 3px solid #d0e5e6;
-}
-
-.btn:hover {
-  background-color: #d0e5e6;
-  border-color: #d0e5e6;
-  color: black;
-  font-weight: bold;
-  box-shadow: 0px 3px 10px 0px rgb(156, 148, 148);
-}
 
 /* Navbar syles */
 
@@ -89,7 +76,7 @@ i {
 .hero {
   height: calc(100vh - 55px);
   width: 100%;
-  background-image: url(/Images/hero.png);
+  background-image: url("../Images/hero.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -118,7 +105,7 @@ i {
     width: 0;
   }
   to {
-    width: 50%;
+    width: 44%;
   }
 }
 
@@ -142,7 +129,7 @@ i {
 
 .work-header {
   padding: 0 12px !important;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .containerWork {
@@ -179,6 +166,20 @@ i {
 .card-container {
   display: flex;
   justify-content: center;
+}
+
+.btn {
+  background-color: transparent;
+  color: black;
+  border: 3px solid #1f2020;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border-color: #ff6200;
+  color: #ff6200;
+  font-weight: bold;
+  box-shadow: 0px 3px 10px 0px rgb(156, 148, 148);
 }
 
 /* Skills stlyes*/
@@ -218,13 +219,9 @@ span {
   margin-bottom: 20px;
 }
 
-.skills-icon {
-}
-
 /* Jumbotron/About me syles */
 
 .jumbotron {
-  text-align: left;
   padding: 100px 0 150px;
 }
 
@@ -255,24 +252,29 @@ span {
 
 /* Contact me syles */
 
-.devicon-contact-1,
-.devicon-contact-2,
-.devicon-contact-3 {
+.devicon-cont-1,
+.devicon-cont-2,
+.devicon-cont-3 {
+  margin: 0;
   padding-left: 0;
-  padding-bottom: 80px;
-  margin-left: 0;
-  color: #ff6200;
   font-size: 60px;
-}
-.devicon-contact-1 {
-  font-size: 70px;
+  color: #ff6200;
 }
 
-.contact1,
-.contact2,
-.contact3 {
-  justify-content: flex-start;
-  cursor: pointer;
+.devicon-cont-1:hover {
+  color: #1f2020;
+}
+.devicon-cont-2:hover {
+  color: #1f2020;
+}
+.devicon-cont-3:hover {
+  color: #1f2020;
+}
+
+.devi-link-1,
+.devi-link-2,
+.devi-link-3 {
+  padding-left: 0;
 }
 
 .contactCopy {
@@ -281,6 +283,11 @@ span {
   color: black;
   margin-left: 30px;
   border: none;
+  text-transform: none;
+}
+
+.cont-wrap {
+  padding-bottom: 80px !important;
 }
 
 /* Footer syles */
@@ -295,6 +302,12 @@ footer {
 
 .devicon-footer {
   font-size: 40px;
+  cursor: pointer;
+  color: #ff6200;
+}
+
+.devicon-footer:hover {
+  color: #1f2020;
 }
 
 .footer-copy {
@@ -310,6 +323,7 @@ footer {
 
 .foot-col-2 {
   padding: 0 0;
+  max-width: 100px;
 }
 
 .foot-col-3 {
