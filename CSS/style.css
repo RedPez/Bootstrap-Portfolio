@@ -34,6 +34,19 @@ i {
   margin: 10px;
   padding: 10px;
 }
+.btn {
+  background-color: transparent;
+  color: black;
+  border: 3px solid #d0e5e6;
+}
+
+.btn:hover {
+  background-color: #d0e5e6;
+  border-color: #d0e5e6;
+  color: black;
+  font-weight: bold;
+  box-shadow: 0px 3px 10px 0px rgb(156, 148, 148);
+}
 
 /* Navbar syles */
 
@@ -50,7 +63,7 @@ i {
 }
 
 .navbar-toggler-icon {
-  border: none;
+  border: none !important;
 }
 
 .navbar-nav {
@@ -59,7 +72,16 @@ i {
 }
 
 .nav-link {
-  padding-right: 30px;
+  padding-right: 35px;
+}
+
+.navbar a {
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  color: #ff6200;
+  font-weight: bold;
 }
 
 /* Hero syles */
@@ -125,7 +147,7 @@ i {
 
 .containerWork {
   padding: 11px 7.5%;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .row-work {
@@ -140,6 +162,7 @@ i {
   border-right: none;
   border-radius: 0;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .card img {
@@ -162,7 +185,7 @@ i {
 
 .skills {
   height: 100%;
-  padding: 200px 0 100px;
+  padding: 150px 0 0;
 }
 
 .container-skills {
@@ -182,6 +205,10 @@ i {
   align-items: center;
 }
 
+.skills-icon:hover {
+  color: #1f2020;
+}
+
 .devicon {
   cursor: pointer;
 }
@@ -198,7 +225,7 @@ span {
 
 .jumbotron {
   text-align: left;
-  padding: 100px 0;
+  padding: 100px 0 150px;
 }
 
 .jumbotronContainer {
@@ -241,14 +268,11 @@ span {
   font-size: 70px;
 }
 
-.contact1 {
-  margin-top: 80px;
-}
-
 .contact1,
 .contact2,
 .contact3 {
   justify-content: flex-start;
+  cursor: pointer;
 }
 
 .contactCopy {
