@@ -37,12 +37,10 @@ i {
 
 .hero {
   height: calc(100vh - 55px);
+  width: 100%;
   background-image: url(/Images/hero.png);
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
 }
 
 .heroCopy {
@@ -54,29 +52,6 @@ i {
 .py-5 {
   padding-top: 10rem !important;
   padding-bottom: 3rem !important;
-}
-
-/* Jumbotron/About me syles */
-
-.jumbotron {
-  text-align: left;
-  padding: 100px 0;
-}
-
-.jumbotronContainer {
-  min-width: 300px;
-}
-
-.lead {
-  font-size: 14px;
-}
-
-.jumbo-content img {
-  margin: 1% 5%;
-  background-size: cover;
-  border-bottom: 5px solid;
-  border-color: #ff6200;
-  border-radius: 50px 5px;
 }
 
 /* Work syles */
@@ -129,4 +104,27 @@ span {
 }
 
 .skills-icon {
+}
+
+/* Jumbotron/About me syles */
+
+.jumbotron {
+  text-align: left;
+  padding: 100px 0;
+}
+
+.jumbotronContainer {
+  min-width: 300px;
+}
+
+.lead {
+  font-size: 14px;
+}
+
+.jumbo-content img {
+  margin: 1% 5%;
+  background-size: cover;
+  border-bottom: 5px solid;
+  border-color: #ff6200;
+  border-radius: 50px 5px;
 }
