@@ -33,6 +33,31 @@ i {
 
 /* Navbar syles */
 
+.navbar {
+  background-color: #d0e5e6 !important;
+}
+
+.nav-container {
+  padding: 5px 40px 0;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler-icon {
+  border: none;
+}
+
+.navbar-nav {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav-link {
+  padding-right: 30px;
+}
+
 /* Hero syles */
 
 .hero {
@@ -49,8 +74,41 @@ i {
   text-align: left;
 }
 
+.heroCopy p {
+  margin-top: x !important;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid #ffbc92; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite !important;
+}
+
+/* The typing effect */
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent !important;
+  }
+  50% {
+    border-color: #ffbc92 !important;
+  }
+}
+
 .py-5 {
-  padding-top: 10rem !important;
+  padding-top: 7rem !important;
   padding-bottom: 3rem !important;
 }
 
@@ -127,4 +185,8 @@ span {
   border-bottom: 5px solid;
   border-color: #ff6200;
   border-radius: 50px 5px;
+}
+
+.about-me {
+  padding-right: 100px;
 }
