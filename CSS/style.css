@@ -79,6 +79,7 @@ i {
   background-image: url("../Images/hero.png");
   background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 0 !important;
 }
 
 .heroCopy {
@@ -133,7 +134,7 @@ i {
 }
 
 .containerWork {
-  padding: 11px 7.5%;
+  padding: 0 7.5%;
   margin-top: 150px;
 }
 
@@ -186,7 +187,7 @@ i {
 
 .skills {
   height: 100%;
-  padding: 150px 0 0;
+  padding: 150px 0 100px;
 }
 
 .container-skills {
@@ -222,7 +223,8 @@ span {
 /* Jumbotron/About me syles */
 
 .jumbotron {
-  padding: 100px 0 150px;
+  padding: 150px 0 150px;
+  background-color: white;
 }
 
 .jumbotronContainer {
