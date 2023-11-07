@@ -97,7 +97,9 @@ You can contact me or view my social media using the links in the contact sectio
 ## Credits
 
 The majority of this website was coded using my own knowledge and the material provided to us on the course.
-I did use a tutorial to add scrolling text and the source code for this can be found here: (https://css-tricks.com/snippets/css/typewriter-effect/).
+I used a tutorial to add scrolling text and the source code for this can be found here: (https://css-tricks.com/snippets/css/typewriter-effect/).
+
+Thanks need to got to Bobbi Tarkany (tutor), who helped me troubleshoot an issue with the margins and padding on my work section, with my scrolling text affect, and spent some time giving me deeper insight into Bootstrap and how it can be utlised.
 
 ## License
 
